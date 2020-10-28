@@ -1,0 +1,17 @@
+#container{
+    text-align: center;    
+    border: 1px solid black;
+    margin-top: 5%;
+}
+
+#header li{
+    float: right;
+    display: inline;
+    padding-right: 10px;
+    
+}
+
+input[type=text]{
+    width: 20%;
+}
+
