@@ -1,6 +1,6 @@
 #container{
     text-align: center;    
-    border: 1px solid black;
+    
     margin-top: 5%;
 }
 
@@ -8,10 +8,63 @@
     float: right;
     display: inline;
     padding-right: 10px;
-    
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
 }
 
 input[type=text]{
     width: 20%;
 }
 
+#logo {
+    content: url("google.jpg");
+    margin-left: 41%;
+    width: 350px;
+    height: 200px;
+}
+
+.clearfix li{
+    float: left;
+    display: inline;
+    padding-right: 10px;
+    margin-top: 25%
+}
+
+.right-links li{
+    float: right;
+    display: inline;
+    padding-right: 10px;
+}
+
+input{
+    padding: 2px;
+}
+
+input [type="text"]{
+    margin: 20px;
+    
+}
+
+
+input [type="submit"]{
+    border: solid 1px #ccc;
+}
+
+a:hover{
+    border-color: #aaa;
+}
+
+a:visited{
+    color: dodgerblue;
+}
+
+a:active{
+    color: dodgerblue;
+}
+
+footer li{
+    color: #555;
+    text-decoration: none;
+    padding: 10px;
+}
