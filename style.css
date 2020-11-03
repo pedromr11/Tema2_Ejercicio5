@@ -68,3 +68,7 @@ footer li{
     text-decoration: none;
     padding: 10px;
 }
+
+nav{
+    height: 1px;
+}
